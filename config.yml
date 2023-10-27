@@ -1,0 +1,131 @@
+baseURL: "https://dorsafsallami.github.io/"
+title: Dorsaf Sallami
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+#social:
+ # twitter: SamiaKabir12
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - name: Research Events
+      url: /research/
+      weight: 1
+    - name: Publications
+      url: /papers/
+      weight: 2
+    - name: Teaching
+      url: /courses/
+      weight: 3
+
+    # - name: Archive
+    #   url: /archive/
+    #   weight: 5
+
+params:
+  description: "I'm a Ph.D. student in Computer Science at the [Université de Montréal](https://www.umontreal.ca/), supervised by Professor [Esma Aïmeur](https://www.iro.umontreal.ca/~aimeur/)."
+  author: Dorsaf Sallami
+  # googleAnalyticsID: ""
+  DateFormat: "January 2006"
+  defaultTheme: light
+  hideFooter: true
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: false
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
+  profileMode:
+    enabled: true
+    title: Dorsaf Sallami
+    subtitle: "Hello! This is Dorsaf! I'm a Ph.D. student in Computer Science at the [Université de Montréal](https://www.umontreal.ca/), supervised by Professor [Esma Aïmeur](https://www.iro.umontreal.ca/~aimeur/). My research interest is
+     in the intersection of Natural Language Processing, Deep Learning, Ethical AI,
+     and Fake news. I am currently a part of the [Artificial Intelligence for Cybersecurity Lab](https://www-labs.iro.umontreal.ca/~talent/en/index.html).
+
+     <br><br>
+     Before coming to Canada, I completed a five-year program, earning a Software Engineering degree in Tunisia. 
+     I was among the top four students nationwide, earning a scholarship in 2020 through a collaboration 
+     between the University of Montreal and the Tunisian Ministry of Higher Education, which allowed me 
+     to pursue a Master’s and Ph.D. program at the University of Montreal.
+I successfully obtained a Master's in Computer Science with a focus on Artificial Intelligence at DIRO. 
+Following that, I transitioned to a Ph.D. program in Artificial Intelligence in the fall of 2022, 
+with my research centering on fake news and extending my Master's thesis.
+
+
+     <br> <br>
+
+     Thank you for visitng my webpage!
+     "
+    imageUrl: "/Photo_2.png"
+    imageWidth: 180
+    imageHeight: 180
+    imageTitle: Dorsaf Sallami
+    buttons:
+      - name: Research Events
+        url: /research/
+      #- name: Blog
+       # url: /blog/ comme projects  !!!!
+      - name: Publications
+        url: /papers/
+      - name: Teaching
+        url: /courses/
+      #- name: News
+       # url: /news/
+
+
+  socialIcons:
+    - name: CV
+      #url: "/cv.pdf"
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/dorsaf-sallemi/"
+    - name: Google Scholar
+      url: "https://scholar.google.com/citations?user=wUa3IWgAAAAJ&hl=fr&oi=ao"
+    - name: GitHub
+      url: "https://github.com/Sallemi7Dorsaf"
+    - name: Email
+      url: "mailto:dorsaf.sallami@umontreal.ca"
+    - name: Location
+      url: "https://www.google.com/maps/dir/45.5007449,-73.6271573/universite+de+montreal+diro/@45.4988821,-73.6277426,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x4cc91985eb35ce97:0xdef12df72bb58d03!2m2!1d-73.6180281!2d45.4991188?entry=ttu"
+
+  assets:
+    disableHLJS: true
+    disableScrollBarStyle: true
+  cover:
+    hiddenInList: true
+    hiddenInSingle: true
+  label:
+    text: "Dorsaf Sallami"
+    icon: /favicon.ico
+    iconHeight: 18
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    style: xcode
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
+# max number of characters:
+# * title: 70
+# * description: 120–155
+# * summary: 265
