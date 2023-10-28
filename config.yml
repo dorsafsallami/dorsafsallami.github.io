@@ -54,9 +54,9 @@ params:
   profileMode:
     enabled: true
     title: Dorsaf Sallami
-    subtitle: "Hello! This is Dorsaf! I'm a Ph.D. student in Computer Science at the [Université de Montréal](https://www.umontreal.ca/), supervised by Professor [Esma Aïmeur](https://www.iro.umontreal.ca/~aimeur/). My research interest is
+    subtitle: "Hello! This is Dorsaf! I'm a Ph.D. student in Computer Science at [University of Montreal,](https://www.umontreal.ca/) supervised by Professor [Esma Aïmeur.](https://www.iro.umontreal.ca/~aimeur/) My research interest is
      in the intersection of Natural Language Processing, Deep Learning, Ethical AI,
-     and Fake news. I am currently a part of the [Artificial Intelligence for Cybersecurity Lab](https://www-labs.iro.umontreal.ca/~talent/en/index.html).
+     and Fake news. I am currently a part of the [Artificial Intelligence for Cybersecurity Lab.](https://www-labs.iro.umontreal.ca/~talent/en/index.html)
 
      <br><br>
      Before coming to Canada, I completed a five-year program, earning a Software Engineering degree in Tunisia. 
@@ -91,13 +91,13 @@ with my research centering on fake news and extending my Master's thesis.
 
   socialIcons:
     - name: CV
-      #url: "/cv.pdf"
+      url: "/Resume-DorsafSallami.pdf"
     - name: LinkedIn
       url: "https://www.linkedin.com/in/dorsaf-sallemi/"
     - name: Google Scholar
       url: "https://scholar.google.com/citations?user=wUa3IWgAAAAJ&hl=fr&oi=ao"
     - name: GitHub
-      url: "https://github.com/Sallemi7Dorsaf"
+      url: "https://github.com/dorsafsallami"
     - name: Email
       url: "mailto:dorsaf.sallami@umontreal.ca"
     - name: Location

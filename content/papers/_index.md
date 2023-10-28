@@ -17,11 +17,11 @@ description: ""
 
 
 # Conferences
-* **SALLAMI, Dorsaf**, BEN SALEM, Rim, et AÏMEUR, Esma. ["Trust-based Recommender System for Fake News Mitigation."](https://dl.acm.org/doi/abs/10.1145/3563359.3597395) Adjunct Proceedings of the 31st ACM Conference on User Modeling, Adaptation and Personalization. 2023. p. 104-109.
+* **SALLAMI, Dorsaf**, BEN SALEM, Rim, and AÏMEUR, Esma. ["Trust-based Recommender System for Fake News Mitigation."](https://dl.acm.org/doi/abs/10.1145/3563359.3597395) Adjunct Proceedings of the 31st ACM Conference on User Modeling, Adaptation and Personalization. 2023. p. 104-109.
 <br> <br>
 
 
 
-* AMRI, Sabrine, **SALLAMI, Dorsaf**, et AÏMEUR, Esma. ["Exmulf: an explainable multimodal content-based fake news detection system."](https://link.springer.com/chapter/10.1007/978-3-031-08147-7_12) International Symposium on Foundations and Practice of Security. Cham : Springer International Publishing, 2021. p. 177-187.  
+* AMRI, Sabrine, **SALLAMI, Dorsaf**, and AÏMEUR, Esma. ["Exmulf: an explainable multimodal content-based fake news detection system."](https://link.springer.com/chapter/10.1007/978-3-031-08147-7_12) International Symposium on Foundations and Practice of Security. Cham : Springer International Publishing, 2021. p. 177-187.  
 <br> <br>
 [Google Scholar](https://scholar.google.com/citations?user=wUa3IWgAAAAJ&hl=fr&oi=ao)
