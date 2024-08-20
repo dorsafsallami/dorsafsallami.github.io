@@ -33,7 +33,7 @@ description: ""
 # Administrative Responsibilities
 
 * **Publicity Chair**  
-  * The 3rd Workshop on Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies [(AiOfAi)](https://sites.google.com/view/aiofai2023/home) at the 32nd International Conference on Artificial Intelligence [(IJCAI)](https://ijcai-23.org/) , 2023
+  * The 3rd Workshop on Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies [(AiOfAi)](https://sites.google.com/view/aiofai2023/home) at the 32nd International Conference on Artificial Intelligence [(IJCAI)](https://ijcai-23.org/), 2023
 
 ---
 
