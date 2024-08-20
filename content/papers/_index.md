@@ -20,7 +20,8 @@ description: ""
 * **SALLAMI, Dorsaf**, BEN SALEM, Rim, and AÏMEUR, Esma. ["Trust-based Recommender System for Fake News Mitigation."](https://dl.acm.org/doi/abs/10.1145/3563359.3597395) Adjunct Proceedings of the 31st ACM Conference on User Modeling, Adaptation and Personalization. 2023. p. 104-109.
 <br> <br>
 
-
+* **SALLAMI, Dorsaf**, GUEDDICHE, Ahmed, and AÏMEUR, Esma. ["From Hype to Reality: Revealing the Accuracy and Robustness of Transformer-Based Models for Fake News Detection."](https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=wUa3IWgAAAAJ&citation_for_view=wUa3IWgAAAAJ:nrtMV_XWKgEC) AIofAI 2023, 3rd IJCAI Workshop on Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies, 2023.
+<br> <br>
 
 * AMRI, Sabrine, **SALLAMI, Dorsaf**, and AÏMEUR, Esma. ["Exmulf: an explainable multimodal content-based fake news detection system."](https://link.springer.com/chapter/10.1007/978-3-031-08147-7_12) International Symposium on Foundations and Practice of Security. Cham : Springer International Publishing, 2021. p. 177-187.  
 <br> <br>
