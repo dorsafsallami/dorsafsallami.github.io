@@ -29,7 +29,7 @@ menu:
     #   weight: 5
 
 params:
-  description: "I'm a Ph.D. student in Computer Science at the [Université de Montréal](https://www.umontreal.ca/), supervised by Professor [Esma Aïmeur](https://www.iro.umontreal.ca/~aimeur/)."
+  description: "I'm a Ph.D. student in Computer Science at the [Université de Montréal](https://www.umontreal.ca/), supervised by Professor [Esma Aïmeur](https://www.iro.umontreal.ca/~aimeur/) and Professor [Gilles Brassard](https://www.iro.umontreal.ca/~brassard/web/)."
   author: Dorsaf Sallami
   # googleAnalyticsID: ""
   DateFormat: "January 2006"
@@ -54,7 +54,7 @@ params:
   profileMode:
     enabled: true
     title: Dorsaf Sallami
-    subtitle: "Hello! This is Dorsaf! I'm a Ph.D. student in Computer Science at [University of Montreal,](https://www.umontreal.ca/) supervised by Professor [Esma Aïmeur.](https://www.iro.umontreal.ca/~aimeur/) My research interest is
+    subtitle: "Hello! This is Dorsaf! I'm a Ph.D. student in Computer Science at [University of Montreal,](https://www.umontreal.ca/) supervised by Professor [Esma Aïmeur](https://www.iro.umontreal.ca/~aimeur/) and Professor [Gilles Brassard.](https://www.iro.umontreal.ca/~brassard/web/) My research interest is
      in the intersection of Natural Language Processing, Deep Learning, Ethical AI,
      and Fake news. I am currently a part of the [Artificial Intelligence for Cybersecurity Lab.](https://www-labs.iro.umontreal.ca/~talent/en/index.html)
 
