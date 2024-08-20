@@ -7,6 +7,10 @@ description: ""
 
 ### Talks:
 
+* **Beyond the Facts: Fake News, Generative Artificial Intelligence, and Cybersecurity.** <br>
+     
+     * Cyberconference [Link](https://cybereco.ca/en/events/cyberconference-2024/) (April , 2024)
+     * 
 * **From Hype to Reality: Transformer-Based Models for Fake News Detection Performance and Robustness Revealed.** <br>
      
      * The 3rd Workshop on Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies (AiOfAi)  [PPT](/AiOfAi.pdf) (August, 2023)
@@ -37,6 +41,6 @@ description: ""
 
 ---
 
-# Reviewing service
-<br>
-
+# Reviewing service <br>
+* [AI and Ethics Journal](https://link.springer.com/journal/43681)
+* [IEEE Technology and Society Magazine](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=44)
