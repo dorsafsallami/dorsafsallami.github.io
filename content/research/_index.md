@@ -25,7 +25,7 @@ description: ""
     * International Symposium on Foundations and Practice of Security (FPS) [PPT](/FPS.pdf) (December, 2021).
 
 
-### Poster Presentations: 
+### Poster: 
 
 * **Explainable System for countering Fake news and Doxxing.**  Inaugural event at the Multidisciplinary Institute for Cybersecurity and Cyber Resilience (IMC2), Polytechnique Montreal, 2023
 
