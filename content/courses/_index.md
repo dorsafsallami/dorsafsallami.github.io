@@ -6,7 +6,7 @@ darft: false
 
 # Teacher Assistant
 
- I got the opportunity to work as TA at University of Montreal.
+ I got the opportunity to work as TA at Université de Montréal.
 
 * **IFT 6261: Knowledge processing** <br>
     Sessions: Winter'24  <br>
