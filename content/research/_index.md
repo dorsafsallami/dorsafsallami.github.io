@@ -42,5 +42,6 @@ description: ""
 ---
 
 # Reviewing service <br>
+* [Artificial Intelligence Review](https://link.springer.com/journal/10462)
 * [AI and Ethics Journal](https://link.springer.com/journal/43681)
 * [IEEE Technology and Society Magazine](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=44)
