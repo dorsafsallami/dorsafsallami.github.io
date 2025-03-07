@@ -4,6 +4,13 @@ description: ""
 darft: false
 ---
 
+---
+
+<h3 style="text-align: center;">Teaching is a skill I’m building as a TA!</h3>
+
+---
+
+
 # Teacher Assistant
 
 I got the opportunity to work as TA at the Université de Montréal.

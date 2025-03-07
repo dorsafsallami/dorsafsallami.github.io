@@ -14,15 +14,18 @@ taxonomies:
 
 menu:
   main:
-    - name: Research Events
-      url: /research/
-      weight: 1
     - name: Publications
       url: /papers/
+      weight: 1
+    - name: Research Events
+      url: /research/
       weight: 2
     - name: Teaching
       url: /courses/
       weight: 3
+    - name: Academic Services
+      url: /services/
+      weight: 4
 
     # - name: Archive
     #   url: /archive/
@@ -77,16 +80,14 @@ with my research centering on fake news and extending my Master's thesis.
     imageHeight: 180
     imageTitle: Dorsaf Sallami
     buttons:
-      - name: Research Events
-        url: /research/
-      #- name: Blog
-       # url: /blog/ comme projects  !!!!
       - name: Publications
         url: /papers/
+      - name: Research Events
+        url: /research/
       - name: Teaching
         url: /courses/
-      #- name: News
-       # url: /news/
+      - name: Academic Services
+        url: /services/
 
 
   socialIcons:
