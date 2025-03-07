@@ -52,7 +52,7 @@ jobs:
           path: ./public
 
       - name: Upload to GitHub Pages
-        uses: actions/upload-pages-artifact@v2  # Ensure this is v2
+        uses: actions/upload-pages-artifact@v3  # Ensure this is v2
         with:
           path: ./public
 
