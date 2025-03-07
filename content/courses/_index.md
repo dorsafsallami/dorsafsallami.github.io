@@ -6,12 +6,13 @@ darft: false
 
 # Teacher Assistant
 
- I got the opportunity to work as TA at the Université de Montréal.
+I got the opportunity to work as TA at the Université de Montréal.
 
 * **IFT2015/IFT6002: Data structures** <br>
     Sessions: Winter'23, Winter'24, Winter'25  <br>
     Conduct lab sessions and Assist the professor <br>
     Grading assignments and Holding office hours
+
 
 * **IFT 6261: Knowledge processing** <br>
     Sessions: Winter'24  <br>
