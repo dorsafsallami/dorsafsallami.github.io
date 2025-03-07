@@ -1,4 +1,4 @@
-name: Deploy Hugo site to GitHub Pages (YML Version)
+name: Deploy Hugo site to Pages
 
 on:
   push:
@@ -34,15 +34,25 @@ jobs:
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v4
 
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
-        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v4  # Make sure this is v4
+        with:
+          name: hugo-site
+          path: ./public
+
+      - name: Upload to GitHub Pages
+        uses: actions/upload-pages-artifact@v2  # Ensure this is v2
         with:
           path: ./public
 
@@ -55,4 +65,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v3
