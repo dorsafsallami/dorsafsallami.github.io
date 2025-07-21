@@ -14,6 +14,8 @@ description: ""
 
 
 ## Reviewing service <br>
+* [The 34th International Joint Conference on Artificial Intelligence (IJCAI – 2025)](https://2025.ijcai.org/)
+* [The 8th AAAI/ACM Conference on AI, Ethics, and Society (AIES – 2025)](https://www.aies-conference.com/2025/)
 * [Artificial Intelligence Review](https://link.springer.com/journal/10462)
 * [AI and Ethics Journal](https://link.springer.com/journal/43681)
 * [IEEE Technology and Society Magazine](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=44)

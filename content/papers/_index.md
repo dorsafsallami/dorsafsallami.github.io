@@ -11,6 +11,8 @@ description: ""
 ---
 
 # Journals
+* **SALLAMI, Dorsaf**, and AÏMEUR, Esma. ["Explain Further: Multi-Level Explanations for Fake News Detection Using Large Language Models."]()International Journal of Information Technology, 2025, (To appear).
+<br><br>
 
 * **SALLAMI, Dorsaf**, and AÏMEUR, Esma. ["Exploring beyond detection: a review on fake news prevention and mitigation techniques."](https://link.springer.com/article/10.1007/s42001-024-00351-x) Journal of Computational Social Science, 2025,  8(1), 1-38.
 <br><br>
@@ -26,6 +28,12 @@ description: ""
 
 
 # Conferences
+* **SALLAMI, Dorsaf**, and AÏMEUR, Esma. ["Aletheia: Detect, Discuss, and Stay Informed on Fake News."]() The 34th International Joint Conference on Artificial Intelligence (IJCAI – 2025).  (To appear)
+<br> <br>
+
+* AÏMEUR, Esma, BRASSARD Gilles, and **SALLAMI, Dorsaf**. ["Too Focused on Accuracy to Notice the Fallout: Towards Socially Responsible Fake News Detection	."]() The 8th AAAI/ACM Conference on AI, Ethics, and Society (AIES – 2025).  (To appear)
+<br> <br>
+
 * **SALLAMI, Dorsaf**, and AÏMEUR, Esma. ["Does Gender Matter? Examining and Mitigating Gender Bias in Fake News Detection."]() the 17th International Symposium on Foundations & Practice of Security (FPS – 2024). 2024.
 <br> <br>
 

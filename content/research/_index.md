@@ -9,6 +9,15 @@ description: ""
 
 ---
 
+* **RAG4MuniESG: ESG Assessment for Municipal Sustainability through Retrieval-Augmented Generation, a Quebec Case Study.** <br>
+     
+     *  First Canada–Denmark Municipal Knowledge Exchange Webinar [Link](https://www.linkedin.com/feed/update/urn:li:activity:7337201350881030145/) (June 2025 | Webinar).
+
+* **CoALFake: Collaborative Active Learning with Human-LLM Co-Annotation for Cross-Domain Fake News Detection.** <br>
+     
+     *  Journée de la Recherche du DIRO [Link](https://event.fourwaves.com/diro2025/pages) (May 2025 | Montreal, Canada).
+
+
 * **Does Gender Matter? Examining and Mitigating Gender Bias in Fake News Detection.** <br>
      
      *  The 17th International Symposium on Foundations & Practice of Security [Link](https://fps-2024.hec.ca/) (December  2024 | Montreal, Canada).
