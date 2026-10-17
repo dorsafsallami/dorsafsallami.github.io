@@ -12,7 +12,8 @@ templates in `layouts/` and the stylesheet in `assets/css/main.css`; no external
 | About text, role line, Veracity box | `content/_index.md` |
 | News | `data/news.yaml` (newest shown on the homepage, all on `/news/`) |
 | Publications | `data/publications.yaml` (`selected: true` puts an entry on the homepage) |
-| Talks and media coverage | `data/talks.yaml`, `data/media.yaml` |
+| Talks | `data/talks.yaml` |
+| Media & public writing | `data/media.yaml` |
 | Teaching & mentorship | `content/teaching/_index.md` |
 | Service | `content/services/_index.md` |
 | Navigation, contact links, email | `config.yml` |

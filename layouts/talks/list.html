@@ -33,20 +33,4 @@
 {{- if $year }}
 </ul>
 {{- end }}
-
-{{- with site.Data.media }}
-<h2 id="media">Media &amp; public writing</h2>
-<ul class="talk-list">
-  {{- range . }}
-  <li class="talk">
-    <div class="talk-title">{{ .title | markdownify }}</div>
-    <div class="talk-event">{{ .outlet | markdownify }}</div>
-    <div class="talk-meta">
-      {{- .label | default (time.Format "January 2006" .date) }}
-      {{- with .links }} &middot; <span class="talk-links">{{ partial "link-list.html" . }}</span>{{ end }}
-    </div>
-  </li>
-  {{- end }}
-</ul>
-{{- end }}
 {{ end }}
