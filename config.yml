@@ -30,7 +30,7 @@ menu:
 params:
   author: Dorsaf Sallami
   description: "Dorsaf Sallami is a postdoctoral researcher at Mila – Québec AI Institute working on responsible AI, NLP, fact-checking, and information integrity. She leads Veracity, an open-source AI fact-checking initiative."
-  portrait: /Photo_2.png
+  portrait: /portrait.jpg
   # Keep file names in static/ lowercase: Hugo lowercases menu URLs and GitHub Pages is case-sensitive.
   cv: /dorsaf-sallami-cv.pdf
   email: dorsaf.sallami@mila.quebec
