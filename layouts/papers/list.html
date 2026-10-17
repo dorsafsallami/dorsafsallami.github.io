@@ -1,0 +1,27 @@
+{{ define "main" }}
+<header class="page-title">
+  <h1>{{ .Title }}</h1>
+  {{- with .Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+</header>
+<div class="content">
+  {{ .Content }}
+</div>
+
+{{- /* data/publications.yaml is kept in reverse-chronological order; entries are grouped by year here. */}}
+{{- $year := "" }}
+{{- range site.Data.publications }}
+{{- $y := printf "%v" .year }}
+{{- if ne $y $year }}
+{{- if $year }}
+</ul>
+{{- end }}
+{{- $year = $y }}
+<h2 id="y{{ $y }}">{{ $y }}</h2>
+<ul class="pub-list">
+{{- end }}
+  {{ partial "publication.html" . }}
+{{- end }}
+{{- if $year }}
+</ul>
+{{- end }}
+{{ end }}

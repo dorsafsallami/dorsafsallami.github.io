@@ -1,0 +1,9 @@
+{{- /* One publication entry from data/publications.yaml */ -}}
+<li class="pub">
+  <div class="pub-title">{{ with .url }}<a href="{{ . }}">{{ $.title }}</a>{{ else }}{{ .title }}{{ end }}</div>
+  <div class="pub-authors">{{ partial "authors.html" .authors }}</div>
+  <div class="pub-venue">{{ .venue }}{{ with .year }}, {{ . }}{{ end }}{{ with .note }} ({{ . }}){{ end }}{{ with .type }}<span class="pub-type">{{ . }}</span>{{ end }}</div>
+  {{- with .links }}
+  <div class="pub-links">{{ partial "link-list.html" . }}</div>
+  {{- end }}
+</li>

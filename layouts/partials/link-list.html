@@ -1,0 +1,6 @@
+{{- /* Renders a list of {label, url} pairs; site-relative paths (starting with "/") are passed through relURL. */ -}}
+{{- range . -}}
+{{- $u := .url -}}
+{{- if hasPrefix $u "/" }}{{ $u = $u | relURL }}{{ end -}}
+<a href="{{ $u }}">{{ .label }}</a>
+{{- end -}}

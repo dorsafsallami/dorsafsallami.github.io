@@ -1,0 +1,78 @@
+# News — the newest entries appear on the homepage; the full list is on /news/.
+#
+# Fields:
+#   date   "YYYY-MM-DD" (quoted). Used for sorting; the site displays month and
+#          year only, so use the 1st of the month when only the month is known.
+#   label  optional display text that replaces the formatted date (e.g. "Fall 2026")
+#   text   Markdown is allowed (links, emphasis)
+
+- date: "2026-10-01"
+  text: >-
+    Invited talk at the [LATECE seminar](https://latece.uqam.ca/evenement/dorsaf-sallami-peut-on-confier-la-verification-des-faits-a-lia-promesses-limites-et-perspectives/),
+    Université du Québec à Montréal: *Peut-on confier la vérification des faits à l'IA ? Promesses, limites et perspectives* (in French).
+
+- date: "2026-10-01"
+  text: >-
+    Guest lecture on *Information Integrity in the Age of Generative AI* in IFT 6261 (Knowledge Processing)
+    at the Université de Montréal.
+
+- date: "2026-09-01"
+  label: "Fall 2026"
+  text: >-
+    Joined the Stanford University professional program *Ethics, Technology, and Public Policy for Practitioners*.
+
+- date: "2026-07-01"
+  text: >-
+    Co-authored an opinion piece in *Le Devoir*:
+    [Construire la confiance, au-delà de l'urgence d'adopter l'intelligence artificielle](https://lnkd.in/gjrqbA-A).
+
+- date: "2026-07-01"
+  text: >-
+    Invited talk at Curtin University's Community of Inquiry in AI Ethics:
+    *Why Accuracy Isn't Enough When AI Decides What Counts as True* (online).
+
+- date: "2026-06-01"
+  text: >-
+    Interviewed for the *Knowable Magazine* article
+    [AI shows promise in the fight against fake news](https://knowablemagazine.org/content/article/technology/2026/fighting-false-facts-with-artificial-intelligence-tools).
+
+- date: "2026-06-01"
+  text: >-
+    Organised the ACM FAccT 2026 social event
+    [Who Decides What Counts as True?](https://facctconference.org/2026/socialevents.html) in Montréal.
+
+- date: "2026-05-01"
+  text: >-
+    [Veracity](https://www.veri-fact.ai/) was
+    [added to the Senate of Canada's resources for senators and staff](https://ivado.ca/en/2026/08/26/transparent-ai-to-verify-information/).
+
+- date: "2026-03-01"
+  text: >-
+    Our work on socially responsible fake news detection was featured by
+    [UdeMNouvelles](https://nouvelles.umontreal.ca/en/article/2026/03/06/fake-news-do-the-tools-meant-to-protect-us-actually-mask-their-flaws)
+    and [Tech Xplore](https://techxplore.com/news/2026-03-ai-fake-news-detectors-accurate.html).
+
+- date: "2026-01-01"
+  text: >-
+    Started as a postdoctoral researcher at [Mila – Québec AI Institute](https://mila.quebec/en),
+    working with Reihaneh Rabbany and Jean-François Godbout.
+
+- date: "2025-12-01"
+  text: >-
+    Completed my Ph.D. in Computer Science at the Université de Montréal, and was named to the
+    [Rector's Honour List](https://esp.umontreal.ca/en/les-esp/liste-dhonneur-du-recteur/#c797716) for 2025–2026.
+
+- date: "2025-10-01"
+  text: >-
+    Presented [Too Focused on Accuracy to Notice the Fallout](https://doi.org/10.1609/aies.v8i1.36530)
+    at AIES 2025 in Madrid, and spoke at Forum INCYBER Canada in Montréal.
+
+- date: "2025-08-01"
+  text: >-
+    Demonstrated [Aletheia](https://doi.org/10.24963/ijcai.2025/1273), our browser extension for
+    fake news detection, at IJCAI 2025 in Montréal.
+
+- date: "2025-06-01"
+  text: >-
+    Spoke at the first Canada–Denmark Municipal Knowledge Exchange webinar on RAG4MuniESG,
+    ESG assessment for municipal sustainability through retrieval-augmented generation.

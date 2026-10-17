@@ -1,0 +1,15 @@
+{{- $current := . }}
+<header class="site-header">
+  <nav class="container nav" aria-label="Main navigation">
+    <a class="brand" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+    <ul class="nav-links">
+      {{- range site.Menus.main }}
+      {{- $url := .URL }}
+      {{- $isHome := eq $url "/" }}
+      {{- $active := cond $isHome $current.IsHome (and (not $current.IsHome) (hasPrefix $current.RelPermalink $url)) }}
+      {{- $isFile := strings.HasSuffix $url ".pdf" }}
+      <li><a href="{{ $url | relURL }}"{{ if $active }} aria-current="page"{{ end }}{{ if $isFile }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a></li>
+      {{- end }}
+    </ul>
+  </nav>
+</header>

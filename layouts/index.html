@@ -1,0 +1,54 @@
+{{ define "main" }}
+<section class="intro">
+  <div class="intro-text">
+    <h1>{{ .Params.name | default site.Title }}</h1>
+    {{- with .Params.role }}<p class="lede">{{ . | markdownify }}</p>{{ end }}
+    {{- with .Params.affiliation }}<p class="affiliation">{{ . | markdownify }}</p>{{ end }}
+    {{ .Content }}
+    <ul class="contact-links">
+      {{- with site.Params.email }}<li><a href="mailto:{{ . }}">{{ partial "icon.html" "mail" }}Email</a></li>{{ end }}
+      {{- with site.Params.scholar }}<li><a href="{{ . }}">{{ partial "icon.html" "scholar" }}Google Scholar</a></li>{{ end }}
+      {{- with site.Params.github }}<li><a href="{{ . }}">{{ partial "icon.html" "github" }}GitHub</a></li>{{ end }}
+      {{- with site.Params.linkedin }}<li><a href="{{ . }}">{{ partial "icon.html" "linkedin" }}LinkedIn</a></li>{{ end }}
+      {{- with site.Params.cv }}<li><a href="{{ . | relURL }}" target="_blank" rel="noopener">{{ partial "icon.html" "file" }}CV (PDF)</a></li>{{ end }}
+    </ul>
+  </div>
+  <figure class="portrait">
+    <img src="{{ site.Params.portrait | relURL }}" alt="Portrait of {{ site.Params.author }}" width="413" height="531">
+  </figure>
+</section>
+
+{{- with .Params.veracity }}
+<aside class="callout" aria-labelledby="veracity-heading">
+  {{- with .kicker }}<span class="callout-kicker">{{ . }}</span>{{ end }}
+  <h2 id="veracity-heading"><a href="{{ .url }}">{{ .name }}</a></h2>
+  <p>{{ .text | markdownify }}</p>
+  <p><a href="{{ .url }}">{{ .linkText | default .url }} &rarr;</a></p>
+</aside>
+{{- end }}
+
+{{- $news := sort site.Data.news "date" "desc" }}
+{{- $count := site.Params.homeNewsCount | default 6 }}
+{{- with $news }}
+<section aria-labelledby="news-heading">
+  <h2 id="news-heading">News</h2>
+  {{ partial "news-list.html" (first $count .) }}
+  {{- if gt (len .) $count }}
+  <p class="more"><a href="{{ "/news/" | relURL }}">All news &rarr;</a></p>
+  {{- end }}
+</section>
+{{- end }}
+
+{{- $selected := where site.Data.publications "selected" true }}
+{{- with $selected }}
+<section aria-labelledby="pubs-heading">
+  <h2 id="pubs-heading">Selected publications</h2>
+  <ul class="pub-list">
+    {{- range . }}
+    {{ partial "publication.html" . }}
+    {{- end }}
+  </ul>
+  <p class="more"><a href="{{ "/papers/" | relURL }}">Full publication list &rarr;</a></p>
+</section>
+{{- end }}
+{{ end }}

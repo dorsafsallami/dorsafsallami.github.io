@@ -1,24 +1,14 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
-
+<html lang="{{ site.LanguageCode | default "en" }}">
 <head>
-    {{- partial "head.html" . }}
+  {{- partial "head.html" . }}
 </head>
-
-<body class="
-{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
-{{- print "list" -}}
-{{- end -}}
-{{- if eq site.Params.defaultTheme `dark` -}}
-{{- print " dark" }}
-{{- end -}}
-" id="top">
-    {{- if not .IsHome  }}
-    {{- partialCached "header.html" . .Page -}}
-    {{- end }}
-    <main class="main">
-        {{- block "main" . }}{{ end }}
-    </main>
-    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{- partial "nav.html" . }}
+  <main id="main" class="container">
+    {{- block "main" . }}{{ end }}
+  </main>
+  {{- partial "footer.html" . }}
 </body>
 </html>

@@ -1,0 +1,160 @@
+# Talks, presentations, and posters — rendered on /talks/, grouped by year.
+#
+# Keep the list in reverse-chronological order (newest first).
+#
+# Fields:
+#   title     talk title (optional for events without a titled talk)
+#   role      e.g. Invited speaker, Speaker, Poster, Guest lecture
+#   event     (required) event name; Markdown allowed
+#   date      "YYYY-MM-DD" (quoted); displayed as month and year
+#   label     optional display text replacing the formatted date
+#   location  e.g. "Montréal, Canada" or "Online"
+#   note      optional short note, e.g. "in French"
+#   links     optional list of {label, url}; site files start with "/"
+
+- title: "Peut-on confier la vérification des faits à l'IA ? Promesses, limites et perspectives"
+  role: Invited speaker
+  event: "LATECE Seminar, Université du Québec à Montréal (UQAM)"
+  date: "2026-10-01"
+  location: "Montréal, Canada"
+  note: in French
+  links:
+    - label: Event
+      url: https://latece.uqam.ca/evenement/dorsaf-sallami-peut-on-confier-la-verification-des-faits-a-lia-promesses-limites-et-perspectives/
+
+- title: "Information Integrity in the Age of Generative AI"
+  role: Guest lecture
+  event: "IFT 6261 – Knowledge Processing, Université de Montréal"
+  date: "2026-10-01"
+  location: "Montréal, Canada"
+
+- title: "Why Accuracy Isn't Enough When AI Decides What Counts as True"
+  role: Invited speaker
+  event: "Community of Inquiry in AI Ethics, Curtin University"
+  date: "2026-07-01"
+  location: Online
+
+- title: "Too Focused on Accuracy to Notice the Fallout: Towards Socially Responsible Fake News Detection"
+  role: Poster
+  event: "8th AAAI/ACM Conference on AI, Ethics, and Society (AIES 2025)"
+  date: "2025-10-01"
+  location: "Madrid, Spain"
+
+- role: Presenter
+  event: "Forum INCYBER Canada, delegation of the Centre for Cybersecurity Belgium"
+  date: "2025-10-01"
+  location: "Montréal, Canada"
+
+- title: "Aletheia: Detect, Discuss, and Stay Informed on Fake News"
+  role: Demo and poster
+  event: "34th International Joint Conference on Artificial Intelligence (IJCAI 2025)"
+  date: "2025-08-01"
+  location: "Montréal, Canada"
+
+- title: "RAG4MuniESG: ESG Assessment for Municipal Sustainability through Retrieval-Augmented Generation, a Quebec Case Study"
+  role: Speaker
+  event: "First Canada–Denmark Municipal Knowledge Exchange Webinar"
+  date: "2025-06-01"
+  location: Online
+  links:
+    - label: Event
+      url: https://www.linkedin.com/feed/update/urn:li:activity:7337201350881030145/
+
+- title: "CoALFake: Collaborative Active Learning with Human-LLM Co-Annotation for Cross-Domain Fake News Detection"
+  role: Poster
+  event: "Journée de la Recherche du DIRO, Université de Montréal"
+  date: "2025-05-01"
+  location: "Montréal, Canada"
+  links:
+    - label: Event
+      url: https://event.fourwaves.com/diro2025/pages
+
+- title: "Does Gender Matter? Examining and Mitigating Gender Bias in Fake News Detection"
+  role: Presenter
+  event: "17th International Symposium on Foundations & Practice of Security (FPS 2024)"
+  date: "2024-12-01"
+  location: "Montréal, Canada"
+  links:
+    - label: Program
+      url: https://easychair.org/smart-program/FPS-2024/2024-12-10.html
+
+- title: "What Do Policy, Planning, and Reporting Documents Reveal About Urban Sustainability Initiatives? Patterns and Insights from AI-Assisted Textual Analysis"
+  role: Speaker
+  event: "Innovate4Cities Conference"
+  date: "2024-09-01"
+  location: "Montréal, Canada"
+  links:
+    - label: Event
+      url: https://www.linkedin.com/posts/justerajaonson_innovate4cities-innovate4cities-durabilitaez-activity-7239003034335211520-MQeJ/
+
+- title: "Nature and Biodiversity in Urban Sustainability Transition Planning and Reporting Documents: Patterns and Insights from AI-Assisted Textual Analysis"
+  role: Speaker
+  event: "15th International Sustainability Transitions Conference (IST 2024)"
+  date: "2024-06-01"
+  location: "Oslo, Norway (online)"
+  links:
+    - label: Event
+      url: https://www.linkedin.com/posts/justerajaonson_ist2024-activity-7209457187092340736-JLOK/
+
+- title: "Beyond the Facts: Fake News, Generative Artificial Intelligence, and Cybersecurity"
+  role: Speaker
+  event: "Cyberconference 2024"
+  date: "2024-04-01"
+  location: "Montréal, Canada"
+  links:
+    - label: Event
+      url: https://cybereco.ca/en/events/cyberconference-2024/
+
+- title: "Explainable System for Countering Fake News and Doxxing"
+  role: Speaker
+  event: "Inaugural event of the Multidisciplinary Institute for Cybersecurity and Cyber Resilience (IMC2), Polytechnique Montréal"
+  date: "2023-10-01"
+  location: "Montréal, Canada"
+  links:
+    - label: Poster
+      url: /poster-IMC2.pdf
+
+- title: "From Hype to Reality: Transformer-Based Models for Fake News Detection Performance and Robustness Revealed"
+  role: Presenter
+  event: "3rd Workshop on Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies (AiOfAi), IJCAI 2023"
+  date: "2023-08-01"
+  location: "Macao, China (online)"
+  links:
+    - label: Slides
+      url: /AiOfAi.pdf
+
+- title: "Trust-based Recommender System for Fake News Mitigation"
+  role: Poster
+  event: "31st ACM Conference on User Modeling, Adaptation and Personalization (UMAP 2023)"
+  date: "2023-06-01"
+  location: "Limassol, Cyprus"
+  links:
+    - label: Poster
+      url: /UMAP-Poster-V2.pdf
+
+- title: "Multimodal Content-Based Fake News Detection System"
+  role: Speaker
+  event: "Annual Canadian Celebration of Women in Computing Conference (CAN-CWiC 2022)"
+  date: "2022-10-01"
+  location: "Toronto, Canada"
+  links:
+    - label: Slides
+      url: /CAN-CWIC.pdf
+
+- title: "Multimodal Content-Based Fake News Detection System"
+  role: Guest lecture
+  event: "IFT 6261 – Knowledge Processing, Université de Montréal"
+  date: "2022-02-01"
+  location: "Montréal, Canada"
+  links:
+    - label: Slides
+      url: /FPS.pdf
+
+- title: "Exmulf: An Explainable Multimodal Content-Based Fake News Detection System"
+  role: Presenter
+  event: "14th International Symposium on Foundations and Practice of Security (FPS 2021)"
+  date: "2021-12-01"
+  location: "Paris, France"
+  links:
+    - label: Slides
+      url: /FPS.pdf
