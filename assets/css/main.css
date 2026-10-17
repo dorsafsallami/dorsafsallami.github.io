@@ -386,6 +386,14 @@ main {
   margin: 0 0 1.1rem;
 }
 
+.talk-year {
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin: 1.5rem 0 0.6rem;
+}
+
 .talk-title {
   font-weight: 500;
 }

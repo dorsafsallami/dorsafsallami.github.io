@@ -1,6 +1,6 @@
 ---
 title: "Talks"
-subtitle: "Invited talks, conference presentations, posters, and guest lectures."
+subtitle: "[Invited talks & speaking engagements](#invited) · [Conference presentations & posters](#conference)"
 aliases:
   - /research/
 ---

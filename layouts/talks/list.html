@@ -7,30 +7,17 @@
   {{ .Content }}
 </div>
 
-{{- /* data/talks.yaml is kept in reverse-chronological order; entries are grouped by year here. */}}
-{{- $year := "" }}
-{{- range site.Data.talks }}
-{{- $y := time.Format "2006" .date }}
-{{- if ne $y $year }}
-{{- if $year }}
-</ul>
+{{- /* Entries come from data/talks.yaml and are split by their `category` field. */}}
+{{- $invited := where site.Data.talks "category" "invited" }}
+{{- $conference := where site.Data.talks "category" "conference" }}
+
+{{- with $invited }}
+<h2 id="invited">Invited talks &amp; speaking engagements</h2>
+{{ partial "talk-list.html" . }}
 {{- end }}
-{{- $year = $y }}
-<h2 id="y{{ $y }}">{{ $y }}</h2>
-<ul class="talk-list">
-{{- end }}
-  <li class="talk">
-    {{- with .title }}<div class="talk-title">{{ . | markdownify }}</div>{{ end }}
-    <div class="talk-event">{{ with .role }}{{ . }}, {{ end }}{{ .event | markdownify }}</div>
-    <div class="talk-meta">
-      {{- .label | default (time.Format "January 2006" .date) }}
-      {{- with .location }} &middot; {{ . }}{{ end }}
-      {{- with .note }} &middot; {{ . }}{{ end }}
-      {{- with .links }} &middot; <span class="talk-links">{{ partial "link-list.html" . }}</span>{{ end }}
-    </div>
-  </li>
-{{- end }}
-{{- if $year }}
-</ul>
+
+{{- with $conference }}
+<h2 id="conference">Conference presentations &amp; posters</h2>
+{{ partial "talk-list.html" . }}
 {{- end }}
 {{ end }}

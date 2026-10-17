@@ -1,0 +1,26 @@
+{{- /* Renders a list of talks (already in reverse-chronological order), grouped by year with h3 headings. */ -}}
+{{- $year := "" }}
+{{- range . }}
+{{- $y := time.Format "2006" .date }}
+{{- if ne $y $year }}
+{{- if $year }}
+</ul>
+{{- end }}
+{{- $year = $y }}
+<h3 class="talk-year">{{ $y }}</h3>
+<ul class="talk-list">
+{{- end }}
+  <li class="talk">
+    {{- with .title }}<div class="talk-title">{{ . | markdownify }}</div>{{ end }}
+    <div class="talk-event">{{ with .role }}{{ . }}, {{ end }}{{ .event | markdownify }}</div>
+    <div class="talk-meta">
+      {{- .label | default (time.Format "January 2006" .date) }}
+      {{- with .location }} &middot; {{ . }}{{ end }}
+      {{- with .note }} &middot; {{ . }}{{ end }}
+      {{- with .links }} &middot; <span class="talk-links">{{ partial "link-list.html" . }}</span>{{ end }}
+    </div>
+  </li>
+{{- end }}
+{{- if $year }}
+</ul>
+{{- end }}
