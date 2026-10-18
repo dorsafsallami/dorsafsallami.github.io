@@ -1,0 +1,34 @@
+{{ define "main" }}
+<header class="page-title">
+  <h1>{{ .Title }}</h1>
+  {{- with .Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+</header>
+<div class="content">
+  {{ .Content }}
+</div>
+
+{{- /* data/media.yaml is kept in reverse-chronological order; entries are grouped by year here. */}}
+{{- $year := "" }}
+{{- range site.Data.media }}
+{{- $y := time.Format "2006" .date }}
+{{- if ne $y $year }}
+{{- if $year }}
+</ul>
+{{- end }}
+{{- $year = $y }}
+<h2 id="y{{ $y }}">{{ $y }}</h2>
+<ul class="talk-list">
+{{- end }}
+  <li class="talk">
+    <div class="talk-title">{{ .title | markdownify }}</div>
+    <div class="talk-event">{{ .outlet | markdownify }}</div>
+    <div class="talk-meta">
+      {{- .label | default (time.Format "January 2006" .date) }}
+      {{- with .links }} &middot; <span class="talk-links">{{ partial "link-list.html" . }}</span>{{ end }}
+    </div>
+  </li>
+{{- end }}
+{{- if $year }}
+</ul>
+{{- end }}
+{{ end }}

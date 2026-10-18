@@ -1,0 +1,9 @@
+{{- /* Renders a list of news items from data/news.yaml (already sorted). */ -}}
+<ul class="news-list">
+  {{- range . }}
+  <li>
+    <span class="news-date">{{ .label | default (time.Format "January 2006" .date) }}</span>
+    <div class="news-text">{{ .text | markdownify }}</div>
+  </li>
+  {{- end }}
+</ul>

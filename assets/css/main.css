@@ -1,0 +1,507 @@
+/* ------------------------------------------------------------------
+   dorsafsallami.github.io — site stylesheet
+   Understated academic layout: system fonts, single column,
+   restrained colours, no decorative animation.
+   ------------------------------------------------------------------ */
+
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  --text: #1f2328;
+  --muted: #5c6670;
+  --link: #1b5fa6;
+  --link-hover: #0f3d70;
+  --rule: #e4e7eb;
+  --tint: #f5f7f9;
+  --accent: #1b5fa6;
+  --max-width: 46rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: var(--text);
+  background: #fff;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 0.25rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin: 2.75rem 0 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin: 1.75rem 0 0.5rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+ul,
+ol {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2rem 0;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: #fff;
+  border: 1px solid var(--rule);
+  z-index: 10;
+}
+
+.skip-link:focus {
+  left: 0.5rem;
+}
+
+/* Header / navigation ------------------------------------------------ */
+
+.site-header {
+  border-bottom: 1px solid var(--rule);
+}
+
+.nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.5rem;
+  padding-top: 0.95rem;
+  padding-bottom: 0.95rem;
+}
+
+.brand {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.brand:hover,
+.brand:focus {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 1.2rem;
+  font-size: 0.95rem;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  display: inline-block;
+  color: var(--muted);
+  padding: 0.1rem 0;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.nav-links a[aria-current="page"] {
+  color: var(--text);
+  border-bottom-color: var(--accent);
+}
+
+/* Main ---------------------------------------------------------------- */
+
+main {
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+.page-title {
+  margin-bottom: 1.5rem;
+}
+
+.page-title p {
+  color: var(--muted);
+  margin: 0.25rem 0 0;
+}
+
+.content h2:first-child {
+  margin-top: 0.5rem;
+}
+
+.more {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+/* Introduction (homepage) -------------------------------------------- */
+
+.intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 11.5rem;
+  gap: 1rem 2.75rem;
+  align-items: start;
+}
+
+.intro-text .lede {
+  font-size: 1.1rem;
+  margin: 0 0 0.1rem;
+}
+
+.intro-text .affiliation {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+}
+
+.portrait {
+  margin: 0.4rem 0 0;
+}
+
+.portrait img {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.contact-links {
+  list-style: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.4rem;
+  font-size: 0.95rem;
+}
+
+.contact-links li {
+  margin: 0;
+}
+
+.contact-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.contact-links svg {
+  width: 1rem;
+  height: 1rem;
+  flex: none;
+}
+
+/* Highlight box (Veracity) ------------------------------------------- */
+
+.callout {
+  margin: 2.5rem 0 0;
+  padding: 1.1rem 1.35rem 1.2rem;
+  background: var(--tint);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+}
+
+.callout-kicker {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+
+.callout h2 {
+  margin: 0 0 0.5rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.2rem;
+}
+
+.callout p {
+  margin: 0 0 0.6rem;
+}
+
+.callout p:last-child {
+  margin-bottom: 0;
+}
+
+/* News ---------------------------------------------------------------- */
+
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news-list li {
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  gap: 0 1rem;
+  margin: 0 0 0.75rem;
+}
+
+.news-date {
+  color: var(--muted);
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+/* Publications -------------------------------------------------------- */
+
+.pub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pub {
+  margin: 0 0 1.2rem;
+}
+
+.pub-title {
+  font-weight: 500;
+}
+
+.pub-authors,
+.pub-venue,
+.pub-links {
+  font-size: 0.95rem;
+}
+
+.pub-venue {
+  color: var(--muted);
+}
+
+.pub-type {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 0 0.35rem;
+  margin-left: 0.45rem;
+  vertical-align: 2px;
+  line-height: 1.4;
+}
+
+.pub-links a + a::before,
+.talk-links a + a::before {
+  content: "·";
+  color: var(--muted);
+  margin: 0 0.45rem;
+}
+
+/* Talks --------------------------------------------------------------- */
+
+.talk-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.talk {
+  margin: 0 0 1.1rem;
+}
+
+.talk-year {
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin: 1.5rem 0 0.6rem;
+}
+
+.year-fold {
+  margin: 0;
+}
+
+.year-fold > summary.talk-year {
+  cursor: pointer;
+  list-style: none;
+}
+
+.year-fold > summary.talk-year::-webkit-details-marker {
+  display: none;
+}
+
+.year-fold > summary.talk-year::after {
+  content: " (show)";
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.year-fold[open] > summary.talk-year::after {
+  content: " (hide)";
+}
+
+.talk-title {
+  font-weight: 500;
+}
+
+.talk-event,
+.talk-meta {
+  font-size: 0.95rem;
+}
+
+.talk-meta {
+  color: var(--muted);
+}
+
+.talk-meta a,
+.talk-links {
+  font-size: 0.95rem;
+}
+
+/* Footer -------------------------------------------------------------- */
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  padding: 1.25rem 0 2rem;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.site-footer .sep {
+  margin: 0 0.5rem;
+}
+
+/* Small screens -------------------------------------------------------- */
+
+@media (max-width: 640px) {
+  body {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  main {
+    padding-top: 1.75rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .nav-links {
+    gap: 0.15rem 1rem;
+    font-size: 0.92rem;
+  }
+
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .portrait {
+    order: -1;
+    width: 10rem;
+    margin: 0 0 1.25rem;
+  }
+
+  .news-list li {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 0.9rem;
+  }
+}
+
+/* Print ---------------------------------------------------------------- */
+
+@media print {
+  .site-header,
+  .site-footer,
+  .skip-link {
+    display: none;
+  }
+
+  a {
+    color: inherit;
+  }
+}

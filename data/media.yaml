@@ -1,0 +1,27 @@
+# Media coverage — rendered on /media/, grouped by year.
+# Keep newest first. Fields: title, outlet, date ("YYYY-MM-DD"), label (optional), links.
+
+- title: "Construire la confiance, au-delà de l'urgence d'adopter l'intelligence artificielle"
+  outlet: "Opinion article (co-author), *Le Devoir*"
+  date: "2026-07-01"
+  links:
+    - label: Article
+      url: https://lnkd.in/gjrqbA-A
+
+- title: "AI shows promise in the fight against fake news"
+  outlet: "Interview with journalist Katya Zimmer, *Knowable Magazine*"
+  date: "2026-06-01"
+  links:
+    - label: Article
+      url: https://knowablemagazine.org/content/article/technology/2026/fighting-false-facts-with-artificial-intelligence-tools
+
+- title: "Fake news: do the tools meant to protect us actually mask their flaws?"
+  outlet: "Coverage of our research on socially responsible fake news detection, *UdeMNouvelles*; also covered by *Tech Xplore* and shared by Crickit.ai"
+  date: "2026-03-01"
+  links:
+    - label: UdeMNouvelles
+      url: https://nouvelles.umontreal.ca/en/article/2026/03/06/fake-news-do-the-tools-meant-to-protect-us-actually-mask-their-flaws
+    - label: Tech Xplore
+      url: https://techxplore.com/news/2026-03-ai-fake-news-detectors-accurate.html
+    - label: Crickit.ai
+      url: https://www.linkedin.com/feed/update/urn:li:share:7436521190187388928/

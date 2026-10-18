@@ -1,0 +1,5 @@
+{{- /* Renders an author list, highlighting the site owner. */ -}}
+{{- range $i, $a := . -}}
+{{- if $i }}, {{ end -}}
+{{- if eq $a site.Params.author }}<strong>{{ $a }}</strong>{{ else }}{{ $a }}{{ end -}}
+{{- end -}}

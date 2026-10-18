@@ -1,0 +1,37 @@
+{{- /* Renders talks (newest first), grouped by year. The last three years stay open; older years are collapsed. */ -}}
+{{- $cutoff := sub now.Year 2 }}
+{{- $year := "" }}
+{{- $collapsed := false }}
+{{- range . }}
+{{- $y := time.Format "2006" .date }}
+{{- $yInt := int $y }}
+{{- if ne $y $year }}
+{{- if $year }}
+</ul>
+{{- if $collapsed }}</details>{{- end }}
+{{- end }}
+{{- $year = $y }}
+{{- $collapsed = lt $yInt $cutoff }}
+{{- if $collapsed }}
+<details class="year-fold">
+  <summary class="talk-year">{{ $y }}</summary>
+{{- else }}
+<h3 class="talk-year">{{ $y }}</h3>
+{{- end }}
+<ul class="talk-list">
+{{- end }}
+  <li class="talk">
+    {{- with .title }}<div class="talk-title">{{ . | markdownify }}</div>{{ end }}
+    <div class="talk-event">{{ with .role }}{{ . }}, {{ end }}{{ .event | markdownify }}</div>
+    <div class="talk-meta">
+      {{- .label | default (time.Format "January 2006" .date) }}
+      {{- with .location }} &middot; {{ . }}{{ end }}
+      {{- with .note }} &middot; {{ . }}{{ end }}
+      {{- with .links }} &middot; <span class="talk-links">{{ partial "link-list.html" . }}</span>{{ end }}
+    </div>
+  </li>
+{{- end }}
+{{- if $year }}
+</ul>
+{{- if $collapsed }}</details>{{- end }}
+{{- end }}

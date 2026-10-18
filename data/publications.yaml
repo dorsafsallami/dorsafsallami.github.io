@@ -1,0 +1,95 @@
+# Publications — rendered on /papers/.
+#
+# Keep the list in reverse-chronological order (newest first); the page groups
+# entries by `year` in the order they appear here.
+#
+# Fields:
+#   title     (required)
+#   authors   (required) list of full names; "Dorsaf Sallami" is highlighted automatically
+#   venue     (required)
+#   year      (required)
+#   type      journal | conference | workshop
+#   url       main link (DOI / publisher page) — the title links here
+#   links     optional extra links, e.g. {label: Slides, url: /AiOfAi.pdf}
+#   note      optional short note shown after the venue, e.g. "demo track"
+
+- title: "Aletheia: Detect, Discuss, and Stay Informed on Fake News"
+  authors: [Dorsaf Sallami, Esma Aïmeur]
+  venue: "Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI-25), pp. 11109–11113"
+  year: 2025
+  type: conference
+  note: demo track
+  url: https://doi.org/10.24963/ijcai.2025/1273
+- title: "Too Focused on Accuracy to Notice the Fallout: Towards Socially Responsible Fake News Detection"
+  authors: [Esma Aïmeur, Gilles Brassard, Dorsaf Sallami]
+  venue: "Proceedings of the 8th AAAI/ACM Conference on AI, Ethics, and Society (AIES), vol. 8, no. 1"
+  year: 2025
+  type: conference
+  url: https://doi.org/10.1609/aies.v8i1.36530
+- title: "Explain Further: Multi-Level Explanations for Fake News Detection Using Large Language Models"
+  authors: [Dorsaf Sallami, Esma Aïmeur]
+  venue: "International Journal of Information Technology"
+  year: 2025
+  type: journal
+  url: https://doi.org/10.1007/s41870-025-02640-8
+- title: "Exploring Beyond Detection: A Review on Fake News Prevention and Mitigation Techniques"
+  authors: [Dorsaf Sallami, Esma Aïmeur]
+  venue: "Journal of Computational Social Science, vol. 8, no. 1, pp. 1–38"
+  year: 2025
+  type: journal
+  url: https://link.springer.com/article/10.1007/s42001-024-00351-x
+- title: "Does Gender Matter? Examining and Mitigating Gender Bias in Fake News Detection"
+  authors: [Dorsaf Sallami, Esma Aïmeur]
+  venue: "Foundations and Practice of Security (FPS 2024), Lecture Notes in Computer Science, Springer, pp. 249–266"
+  year: 2025
+  type: conference
+  url: https://doi.org/10.1007/978-3-031-87499-4_16
+
+- title: "Fairframe: A Fairness Framework for Bias Detection and Mitigation in News"
+  authors: [Dorsaf Sallami, Esma Aïmeur]
+  venue: "AI and Ethics"
+  year: 2024
+  type: journal
+  url: https://link.springer.com/article/10.1007/s43681-024-00568-6
+- title: "Exploring the Power of Dual Deep Learning for Fake News Detection"
+  authors: [Hounaida Moalla, Hana Abid, Dorsaf Sallami, Esma Aïmeur, Bassem Ben Hamed]
+  venue: "Informatica, vol. 48, no. 4"
+  year: 2024
+  type: journal
+  url: https://informatica.si/index.php/informatica/article/view/5977
+
+- title: "From Hype to Reality: Transformer-Based Models for Fake News Detection Performance and Robustness Revealed"
+  authors: [Dorsaf Sallami, Ahmed Gueddiche, Esma Aïmeur]
+  venue: "3rd Workshop on Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies (AiOfAi), IJCAI 2023"
+  year: 2023
+  type: workshop
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=wUa3IWgAAAAJ&citation_for_view=wUa3IWgAAAAJ:nrtMV_XWKgEC
+  links:
+    - label: Slides
+      url: /AiOfAi.pdf
+    - label: Proceedings
+      url: https://ceur-ws.org/Vol-3593/
+
+- title: "Trust-based Recommender System for Fake News Mitigation"
+  authors: [Dorsaf Sallami, Rim Ben Salem, Esma Aïmeur]
+  venue: "Adjunct Proceedings of the 31st ACM Conference on User Modeling, Adaptation and Personalization (UMAP), pp. 104–109"
+  year: 2023
+  type: conference
+  url: https://dl.acm.org/doi/abs/10.1145/3563359.3597395
+  links:
+    - label: Poster
+      url: /UMAP-Poster-V2.pdf
+
+- title: "A Deep Reinforcement Learning Based Decision-Making Approach for Avoiding Crowd Situation within the Case of Covid'19 Pandemic"
+  authors: [Wejden Abdallah, Dalel Kanzari, Dorsaf Sallami, et al.]
+  venue: "Computational Intelligence, vol. 38, no. 2, pp. 416–437"
+  year: 2022
+  type: journal
+  url: https://onlinelibrary.wiley.com/doi/full/10.1111/coin.12516
+
+- title: "Exmulf: An Explainable Multimodal Content-Based Fake News Detection System"
+  authors: [Sabrine Amri, Dorsaf Sallami, Esma Aïmeur]
+  venue: "Foundations and Practice of Security (FPS 2021), Springer, pp. 177–187"
+  year: 2021
+  type: conference
+  url: https://link.springer.com/chapter/10.1007/978-3-031-08147-7_12
