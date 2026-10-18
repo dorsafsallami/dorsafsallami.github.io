@@ -14,18 +14,9 @@
     </ul>
   </div>
   <figure class="portrait">
-    <img src="{{ site.Params.portrait | relURL }}" alt="Portrait of {{ site.Params.author }}" width="853" height="1024">
+    <img src="{{ site.Params.portrait | relURL }}" alt="Portrait of {{ site.Params.author }}" width="783" height="839">
   </figure>
 </section>
-
-{{- with .Params.veracity }}
-<aside class="callout" aria-labelledby="veracity-heading">
-  {{- with .kicker }}<span class="callout-kicker">{{ . }}</span>{{ end }}
-  <h2 id="veracity-heading"><a href="{{ .url }}">{{ .name }}</a></h2>
-  <p>{{ .text | markdownify }}</p>
-  <p><a href="{{ .url }}">{{ .linkText | default .url }} &rarr;</a></p>
-</aside>
-{{- end }}
 
 {{- $news := sort site.Data.news "date" "desc" }}
 {{- $count := site.Params.homeNewsCount | default 6 }}
@@ -36,19 +27,6 @@
   {{- if gt (len .) $count }}
   <p class="more"><a href="{{ "/news/" | relURL }}">All news &rarr;</a></p>
   {{- end }}
-</section>
-{{- end }}
-
-{{- $selected := where site.Data.publications "selected" true }}
-{{- with $selected }}
-<section aria-labelledby="pubs-heading">
-  <h2 id="pubs-heading">Selected publications</h2>
-  <ul class="pub-list">
-    {{- range . }}
-    {{ partial "publication.html" . }}
-    {{- end }}
-  </ul>
-  <p class="more"><a href="{{ "/papers/" | relURL }}">Full publication list &rarr;</a></p>
 </section>
 {{- end }}
 {{ end }}

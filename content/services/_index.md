@@ -1,7 +1,10 @@
 ---
 title: "Service"
-subtitle: "Workshop organisation, editorial work, reviewing, and outreach."
 ---
+
+## Editorial
+
+* **Topic editor** — [AiOfAi: Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies](https://www.frontiersin.org/research-topics/84358/aiofai-adverse-impacts-and-collateral-effects-of-artificial-intelligence-technologies), *Frontiers in Artificial Intelligence*, 2026.
 
 ## Organisation and leadership
 
@@ -12,10 +15,6 @@ subtitle: "Workshop organisation, editorial work, reviewing, and outreach."
 * **Workshop organiser** — [4th Workshop on Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies (AiOfAi)](https://sites.google.com/view/aiofai-2026/home), The ACM Web Conference 2026 — [proceedings](https://dl.acm.org/doi/proceedings/10.1145/3774905).
 * **Publicity chair** — [3rd Workshop on Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies (AiOfAi)](https://sites.google.com/view/aiofai2023/home), IJCAI 2023 — [proceedings](https://ceur-ws.org/Vol-3593/).
 * **Lab leader** — [Artificial Intelligence for Cybersecurity Lab](https://www.iro.umontreal.ca/~talent/en/index.html), Université de Montréal, 2021–2025.
-
-## Editorial
-
-* **Topic editor** — [AiOfAi: Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies](https://www.frontiersin.org/research-topics/84358/aiofai-adverse-impacts-and-collateral-effects-of-artificial-intelligence-technologies), *Frontiers in Artificial Intelligence*, 2026.
 
 ## Outreach and expert contributions
 

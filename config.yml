@@ -20,15 +20,18 @@ menu:
     - name: Media
       url: /media/
       weight: 4
-    - name: "Teaching & Mentorship"
+    - name: Teaching
       url: /teaching/
       weight: 5
+    - name: Mentorship
+      url: /mentorship/
+      weight: 6
     - name: Service
       url: /services/
-      weight: 6
+      weight: 7
     - name: CV
       url: /dorsaf-sallami-cv.pdf
-      weight: 7
+      weight: 8
 
 params:
   author: Dorsaf Sallami

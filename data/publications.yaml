@@ -1,4 +1,4 @@
-# Publications — rendered on /papers/ (all) and on the homepage (selected: true).
+# Publications — rendered on /papers/.
 #
 # Keep the list in reverse-chronological order (newest first); the page groups
 # entries by `year` in the order they appear here.
@@ -12,7 +12,6 @@
 #   url       main link (DOI / publisher page) — the title links here
 #   links     optional extra links, e.g. {label: Slides, url: /AiOfAi.pdf}
 #   note      optional short note shown after the venue, e.g. "demo track"
-#   selected  true to show the entry under "Selected publications" on the homepage
 
 - title: "Aletheia: Detect, Discuss, and Stay Informed on Fake News"
   authors: [Dorsaf Sallami, Esma Aïmeur]
@@ -21,32 +20,24 @@
   type: conference
   note: demo track
   url: https://doi.org/10.24963/ijcai.2025/1273
-  selected: true
-
 - title: "Too Focused on Accuracy to Notice the Fallout: Towards Socially Responsible Fake News Detection"
   authors: [Esma Aïmeur, Gilles Brassard, Dorsaf Sallami]
   venue: "Proceedings of the 8th AAAI/ACM Conference on AI, Ethics, and Society (AIES), vol. 8, no. 1"
   year: 2025
   type: conference
   url: https://doi.org/10.1609/aies.v8i1.36530
-  selected: true
-
 - title: "Explain Further: Multi-Level Explanations for Fake News Detection Using Large Language Models"
   authors: [Dorsaf Sallami, Esma Aïmeur]
   venue: "International Journal of Information Technology"
   year: 2025
   type: journal
   url: https://doi.org/10.1007/s41870-025-02640-8
-  selected: true
-
 - title: "Exploring Beyond Detection: A Review on Fake News Prevention and Mitigation Techniques"
   authors: [Dorsaf Sallami, Esma Aïmeur]
   venue: "Journal of Computational Social Science, vol. 8, no. 1, pp. 1–38"
   year: 2025
   type: journal
   url: https://link.springer.com/article/10.1007/s42001-024-00351-x
-  selected: true
-
 - title: "Does Gender Matter? Examining and Mitigating Gender Bias in Fake News Detection"
   authors: [Dorsaf Sallami, Esma Aïmeur]
   venue: "Foundations and Practice of Security (FPS 2024), Lecture Notes in Computer Science, Springer, pp. 249–266"
@@ -60,8 +51,6 @@
   year: 2024
   type: journal
   url: https://link.springer.com/article/10.1007/s43681-024-00568-6
-  selected: true
-
 - title: "Exploring the Power of Dual Deep Learning for Fake News Detection"
   authors: [Hounaida Moalla, Hana Abid, Dorsaf Sallami, Esma Aïmeur, Bassem Ben Hamed]
   venue: "Informatica, vol. 48, no. 4"

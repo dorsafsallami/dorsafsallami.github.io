@@ -394,6 +394,29 @@ main {
   margin: 1.5rem 0 0.6rem;
 }
 
+.year-fold {
+  margin: 0;
+}
+
+.year-fold > summary.talk-year {
+  cursor: pointer;
+  list-style: none;
+}
+
+.year-fold > summary.talk-year::-webkit-details-marker {
+  display: none;
+}
+
+.year-fold > summary.talk-year::after {
+  content: " (show)";
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.year-fold[open] > summary.talk-year::after {
+  content: " (hide)";
+}
+
 .talk-title {
   font-weight: 500;
 }

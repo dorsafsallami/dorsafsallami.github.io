@@ -6,18 +6,25 @@
 #   label  optional display text that replaces the formatted date (e.g. "Fall 2026")
 #   text   Markdown is allowed (links, emphasis)
 
+- date: "2026-10-18"
+  text: >-
+    Our [workshop](https://sites.google.com/view/aiofai2027/home) on Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies (AiOfAi) has been accepted at The ACM Web Conference 2027.
+
+- date: "2026-10-15"
+  text: >-
+    Our [workshop](https://dimigenais-aaai2027.netlify.app/) *Disinformation and Misinformation under the Lens of Generative AI Safety* has been accepted at AAAI 2027.
+
+- date: "2026-10-08"
+  label: "September 2026"
+  text: >-
+    Paper accepted at the Women in Machine Learning (WiML) workshop at NeurIPS 2026.
+
 - date: "2026-10-01"
   text: >-
     Invited talk at the [LATECE seminar](https://latece.uqam.ca/evenement/dorsaf-sallami-peut-on-confier-la-verification-des-faits-a-lia-promesses-limites-et-perspectives/),
     Université du Québec à Montréal: *Peut-on confier la vérification des faits à l'IA ? Promesses, limites et perspectives* (in French).
 
-- date: "2026-10-01"
-  text: >-
-    Guest lecture on *Information Integrity in the Age of Generative AI* in IFT 6261 (Knowledge Processing)
-    at the Université de Montréal.
-
 - date: "2026-09-01"
-  label: "Fall 2026"
   text: >-
     Joined the Stanford University professional program *Ethics, Technology, and Public Policy for Practitioners*.
 

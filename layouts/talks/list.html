@@ -12,7 +12,7 @@
 {{- $conference := where site.Data.talks "category" "conference" }}
 
 {{- with $invited }}
-<h2 id="invited">Invited talks &amp; speaking engagements</h2>
+<h2 id="invited">Invited talks</h2>
 {{ partial "talk-list.html" . }}
 {{- end }}
 
