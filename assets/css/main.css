@@ -4,7 +4,8 @@
    restrained colours, no decorative animation.
    ------------------------------------------------------------------ */
 
-:root {
+:root,
+html[data-theme="light"] {
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   --text: #1f2328;
@@ -14,7 +15,35 @@
   --rule: #e4e7eb;
   --tint: #f5f7f9;
   --accent: #1b5fa6;
+  --bg: #ffffff;
   --max-width: 46rem;
+  color-scheme: light;
+}
+
+html[data-theme="dark"] {
+  --text: #e6e8eb;
+  --muted: #9aa3ad;
+  --link: #8cb8e8;
+  --link-hover: #c5dcfa;
+  --rule: #2d333b;
+  --tint: #1c2128;
+  --accent: #8cb8e8;
+  --bg: #121417;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme]) {
+    --text: #e6e8eb;
+    --muted: #9aa3ad;
+    --link: #8cb8e8;
+    --link-hover: #c5dcfa;
+    --rule: #2d333b;
+    --tint: #1c2128;
+    --accent: #8cb8e8;
+    --bg: #121417;
+    color-scheme: dark;
+  }
 }
 
 * {
@@ -31,7 +60,7 @@ body {
   font-size: 1.0625rem;
   line-height: 1.65;
   color: var(--text);
-  background: #fff;
+  background: var(--bg);
 }
 
 .container {
@@ -72,8 +101,8 @@ h1 {
 
 h2 {
   font-size: 1.35rem;
-  margin: 2.75rem 0 1rem;
-  padding-bottom: 0.35rem;
+  margin: 2rem 0 0.75rem;
+  padding-bottom: 0.3rem;
   border-bottom: 1px solid var(--rule);
 }
 
@@ -83,7 +112,7 @@ h3 {
 }
 
 p {
-  margin: 0 0 1rem;
+  margin: 0 0 0.8rem;
 }
 
 ul,
@@ -121,7 +150,7 @@ hr {
   left: -999px;
   top: 0.5rem;
   padding: 0.5rem 0.75rem;
-  background: #fff;
+  background: var(--bg);
   border: 1px solid var(--rule);
   z-index: 10;
 }
@@ -191,15 +220,49 @@ hr {
   border-bottom-color: var(--accent);
 }
 
+.nav-end {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+}
+
+.theme-toggle {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  padding: 0.15rem;
+  margin: 0;
+  color: var(--muted);
+  cursor: pointer;
+  line-height: 0;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus {
+  color: var(--text);
+}
+
+.theme-toggle svg {
+  display: none;
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
+html[data-theme="dark"] .theme-toggle .icon-sun,
+html:not([data-theme="dark"]) .theme-toggle .icon-moon {
+  display: block;
+}
+
 /* Main ---------------------------------------------------------------- */
 
 main {
-  padding-top: 2.5rem;
-  padding-bottom: 3rem;
+  padding-top: 1.75rem;
+  padding-bottom: 2.25rem;
 }
 
 .page-title {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.1rem;
 }
 
 .page-title p {
@@ -219,24 +282,23 @@ main {
 /* Introduction (homepage) -------------------------------------------- */
 
 .intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 11.5rem;
-  gap: 1rem 2.75rem;
-  align-items: start;
+  overflow: hidden;
 }
 
-.intro-text .lede {
+.intro .lede {
   font-size: 1.1rem;
   margin: 0 0 0.1rem;
 }
 
-.intro-text .affiliation {
+.intro .affiliation {
   color: var(--muted);
-  margin: 0 0 1.5rem;
+  margin: 0 0 0.85rem;
 }
 
 .portrait {
-  margin: 0.4rem 0 0;
+  float: right;
+  width: 11.5rem;
+  margin: 0.15rem 0 0.85rem 1.75rem;
 }
 
 .portrait img {
@@ -247,12 +309,13 @@ main {
 
 .contact-links {
   list-style: none;
-  margin: 1.25rem 0 0;
+  margin: 0.85rem 0 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem 1.4rem;
+  gap: 0.45rem 1.3rem;
   font-size: 0.95rem;
+  clear: both;
 }
 
 .contact-links li {
@@ -314,11 +377,15 @@ main {
   padding: 0;
 }
 
+.news {
+  clear: both;
+}
+
 .news-list li {
   display: grid;
   grid-template-columns: 7rem minmax(0, 1fr);
   gap: 0 1rem;
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.55rem;
 }
 
 .news-date {
@@ -336,7 +403,7 @@ main {
 }
 
 .pub {
-  margin: 0 0 1.2rem;
+  margin: 0 0 0.95rem;
 }
 
 .pub-title {
@@ -383,7 +450,7 @@ main {
 }
 
 .talk {
-  margin: 0 0 1.1rem;
+  margin: 0 0 0.9rem;
 }
 
 .talk-year {
@@ -460,7 +527,7 @@ main {
   }
 
   main {
-    padding-top: 1.75rem;
+    padding-top: 1.35rem;
   }
 
   .nav {
@@ -469,20 +536,20 @@ main {
     gap: 0.5rem;
   }
 
+  .nav-end {
+    width: 100%;
+    justify-content: space-between;
+  }
+
   .nav-links {
     gap: 0.15rem 1rem;
     font-size: 0.92rem;
   }
 
-  .intro {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-
   .portrait {
-    order: -1;
+    float: none;
     width: 10rem;
-    margin: 0 0 1.25rem;
+    margin: 0 0 0.9rem;
   }
 
   .news-list li {
