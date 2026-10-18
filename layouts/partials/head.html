@@ -4,13 +4,14 @@
 {{- $css := resources.Get "css/main.css" | minify | fingerprint }}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{{- partial "theme-init.html" . }}
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $description }}">
 <meta name="author" content="{{ site.Params.author }}">
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="icon" href="{{ "favicon.ico" | relURL }}">
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#ffffff" id="theme-color">
 <meta property="og:type" content="{{ if .IsHome }}profile{{ else }}website{{ end }}">
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $description }}">

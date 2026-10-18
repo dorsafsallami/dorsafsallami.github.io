@@ -1,0 +1,10 @@
+<script>
+(function () {
+  var stored = localStorage.getItem("theme");
+  var query = new URLSearchParams(window.location.search).get("theme");
+  if (query === "dark" || query === "light") stored = query;
+  var theme = stored || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  document.documentElement.setAttribute("data-theme", theme);
+  document.documentElement.style.colorScheme = theme;
+})();
+</script>
