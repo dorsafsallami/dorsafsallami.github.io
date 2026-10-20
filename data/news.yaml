@@ -6,6 +6,10 @@
 #   label  optional display text that replaces the formatted date (e.g. "Fall 2026")
 #   text   Markdown is allowed (links, emphasis)
 
+- date: "2026-10-19"
+  text: >-
+    Happy to have been selected for DAAD's [Postdoc-NeT-AI programme](https://www.daad.de/en/the-daad/postdocnet/)! 🇩🇪
+
 - date: "2026-10-18"
   text: >-
     Our [workshop](https://sites.google.com/view/aiofai2027/home) on Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies (AiOfAi) has been accepted at The ACM Web Conference 2027.
