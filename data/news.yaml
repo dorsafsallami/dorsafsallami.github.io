@@ -6,6 +6,13 @@
 #   label  optional display text that replaces the formatted date (e.g. "Fall 2026")
 #   text   Markdown is allowed (links, emphasis)
 
+- date: "2026-11-09"
+  label: "November 9, 2026"
+  text: >-
+    I spoke with Radio-Canada Toronto on *Y a pas deux matins pareils* about New York State's efforts to prevent young people from mistaking AI for humans.
+    [« L'État de New York veut empêcher les jeunes de confondre l'IA avec des humains »](https://ici.radio-canada.ca/ohdio/premiere/emissions/y-a-pas-deux-matins-pareils/segments/rattrapage/2524657/etat-new-york-veut-empecher-jeunes-confondre-ia-avec-humains)
+    (interview in French).
+
 - date: "2026-10-19"
   text: >-
     Happy to have been selected for DAAD's [Postdoc-NeT-AI programme](https://www.daad.de/en/the-daad/postdocnet/)! 🇩🇪
