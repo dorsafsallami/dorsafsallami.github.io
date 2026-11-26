@@ -292,7 +292,11 @@ main {
 
 .intro .affiliation {
   color: var(--muted);
-  margin: 0 0 0.85rem;
+  margin: 0 0 0.1rem;
+}
+
+.intro .affiliation:not(:has(+ .affiliation)) {
+  margin-bottom: 0.85rem;
 }
 
 .portrait {

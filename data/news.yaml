@@ -6,6 +6,10 @@
 #   label  optional display text that replaces the formatted date (e.g. "Fall 2026")
 #   text   Markdown is allowed (links, emphasis)
 
+- date: "2026-11-26"
+  text: >-
+    I'm pleased to have joined [Obvia](https://www.obvia.ca/) as an Associate Research Member, expanding my engagement in research on the societal impacts of AI and digital technologies.
+
 - date: "2026-11-09"
   label: "November 9, 2026"
   text: >-

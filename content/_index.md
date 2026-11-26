@@ -2,7 +2,9 @@
 title: "About"
 name: "Dorsaf Sallami"
 role: "Postdoctoral Researcher, [Mila – Québec AI Institute](https://mila.quebec/en)"
-affiliation: "Member, [Centre for the Study of Democratic Citizenship](https://csdc-cecd.ca/chercheurses/) · Montréal, Canada"
+affiliation:
+  - "Associate Research Member, [Obvia](https://www.obvia.ca/) · Montréal, Canada"
+  - "Member, [Centre for the Study of Democratic Citizenship](https://csdc-cecd.ca/chercheurses/) · Montréal, Canada"
 ---
 
 I am a postdoctoral researcher at [Mila – Québec AI Institute](https://mila.quebec/en), where I work with [Reihaneh Rabbany](https://www.reirab.com/) ([McGill University](https://www.mcgill.ca/)) and [Jean-François Godbout](https://jf-godbout.github.io/) ([Université de Montréal](https://www.umontreal.ca/)). I lead [Veracity](https://www.veri-fact.ai/), an open-source AI fact-checking initiative. Veracity is cited in [Canada's National Artificial Intelligence Strategy](https://ised-isde.canada.ca/site/isde/fr/strategie-nationale-matiere-dintelligence-artificielle-canada-lia-pour-tous) as an example of impactful Canadian AI research, and in May 2026 it was [added to the Senate of Canada's resources for senators](https://ivado.ca/en/2026/08/26/transparent-ai-to-verify-information/).
