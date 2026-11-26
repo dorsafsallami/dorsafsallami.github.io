@@ -2,7 +2,9 @@
 <section class="intro">
   <h1>{{ .Params.name | default site.Title }}</h1>
   {{- with .Params.role }}<p class="lede">{{ . | markdownify }}</p>{{ end }}
-  {{- with .Params.affiliation }}<p class="affiliation">{{ . | markdownify }}</p>{{ end }}
+  {{- range .Params.affiliation }}
+  <p class="affiliation">{{ . | markdownify }}</p>
+  {{- end }}
   <figure class="portrait">
     <img src="{{ site.Params.portrait | relURL }}" alt="Portrait of {{ site.Params.author }}" width="783" height="839">
   </figure>
