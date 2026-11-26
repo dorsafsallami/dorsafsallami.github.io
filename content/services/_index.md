@@ -8,6 +8,7 @@ title: "Service"
 
 ## Organisation and leadership
 
+* **Co-organiser** — [BRAID: Bridging AI and Democracy — Towards Trustworthy Information Ecosystems](https://sites.google.com/view/41st-aaai-braid/home), AAAI-27 Bridge Program, Montréal, Canada, 2027.
 * **Workshop organiser** — [Disinformation and Misinformation under the Lens of Generative AI Safety](https://dimigenais-aaai2027.netlify.app/), AAAI 2027.
 * **Workshop organiser** — [5th Workshop on Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies (AiOfAi)](https://sites.google.com/view/aiofai2027/home), The ACM Web Conference 2027.
 * **Designated coordinator** — [IVADO Thematic Semester](https://ivado.ca/en/thematic-programs/): *Information Integrity in the Age of Generative AI*, 2027.
